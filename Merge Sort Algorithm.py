@@ -79,8 +79,11 @@ def is_sorted(list):
     # recursive (deep ; hard to understand)
     return list[0]<list[1] and is_sorted(list[1:])
 
-print(is_sorted(sample_list))
-print(is_sorted(sorted_list))
+
+output = is_sorted(sample_list)
+
+print(output)
+#print(is_sorted(sorted_list))
 
 
 
